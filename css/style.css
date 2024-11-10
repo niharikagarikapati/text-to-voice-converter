@@ -1,0 +1,125 @@
+/* .body{   
+   margin: 0;
+   padding: 0;
+   font-family: 'Poppins' sans-serif;
+   box-sizing: border-box;
+  background-color: #490d61;
+}
+.hero{
+    margin: 0%;
+    min-width: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+}
+.hero h1 span{
+    color: #ff2963;
+}
+textarea{
+    width: 600px;
+    height: 250;
+    background: #403d84;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    padding: 0;
+    border-radius: 10px;
+    resize: none;
+    margin-bottom: 30px;
+ /* }   */
+ body{   
+    margin: 0;
+    padding: 10;
+    font-family: 'Poppins' sans-serif;
+    box-sizing: border-box;
+    background : linear-gradient(45deg,#02052e,#490d61);
+    align-items: center;
+ }
+ .hero{
+    margin: 10%;
+    padding-right: 0%;
+    min-width: 50vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+ }
+ .hero h1{
+    font-size: 45px;
+    font-weight: 500;
+    margin-top: -50px;
+    margin-bottom: 50px;
+    color:#fff;
+   
+}
+.hero h1 span{
+    color: #be0d48;
+}
+textarea{
+    width: 100;
+    padding: 100px;
+    height: 0;
+    background: #403d84;
+    color: #fff;
+    font-size: 15px;
+    border: 0;
+    outline: 0;
+    border-radius: 10px;
+    resize:vertical;
+    margin-bottom: 30px;
+    border-radius: 10px;
+ }  
+ textarea::placeholder{
+    font-size:x-large;
+    color: #ddd;
+    text-align:start;
+ }
+ .row{
+    gap: 20px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+ }
+ .hero button{
+    border-radius: 30px;
+   background-color: #be0d48;
+    display: flex;
+    height: 45px;
+    width: 150px;
+    color: #ddd;
+    padding: 10px 30px;
+    font-size:20px;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    outline-color:white;
+ }
+ button img{
+     align-items: start;
+     gap: 70px;
+     display: flex;
+     margin-right: 10px;
+
+    
+ }
+ .hero select{
+    flex:1;
+    height: 30px;
+    padding: 0px 150px;
+    border-radius: 20px;
+    background-image: url(images\down-button.png);
+    background-repeat: no-repeat;
+    background-size: 36;
+    background-position-x: calc(100%-50px);
+    background-position-y: calc(100%-40px);
+ }
